@@ -1,0 +1,23 @@
+.burger__main{    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:50px;
+    position:relative;    
+    height:auto; 
+    background-color: rgb(221, 213, 213);
+    border-radius: 10px;
+    top:0;     
+    padding-left:15px;
+    gap:5px;
+    padding-bottom:5px;
+    row-gap:5px;
+    width:700px;
+    
+}
+.burger__main > h1{
+    top:0;
+    position: absolute;
+    font-size:larger;
+    left:10px;
+   
+}

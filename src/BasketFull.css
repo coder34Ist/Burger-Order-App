@@ -1,0 +1,12 @@
+.basketfull{
+    position:relative;
+    width:247px;
+    max-height:250px;
+    border:1px solid black;   
+   background-color: rgb(255, 255, 255);
+    overflow-x:hidden;
+    overflow-y:auto;
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+  }

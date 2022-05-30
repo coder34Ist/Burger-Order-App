@@ -1,0 +1,26 @@
+.secondiv{    
+    width:1550px;
+    height:auto;
+    
+}
+
+.secondiv__Header{
+    position:relative;
+    display: flex;
+    align-items: flex-start;
+    gap:10px;  
+    padding-left:200px;
+    
+}
+.menu__div{
+    position:relative;
+  
+    display:flex;
+    flex-direction:column;
+    gap:5px 5px;
+    flex:0 0 400px;
+    background-color:rgb(229, 229, 143);
+    height:auto;
+    padding-bottom:10px;      
+}
+

@@ -1,0 +1,124 @@
+
+.outside__headerr{
+    width:1920px;
+    height:auto;
+    
+}
+.main__header{
+    width: 1920px;
+    height:150px;
+    background-color: #f44336;
+    
+}
+.main__header > img{
+    top:0;
+    left:350px;
+    width:150px;
+    height:150px;
+    position:absolute;
+    
+}
+.double_a{
+    width:100px;
+    height:35px;
+    background-color:yellow;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    
+}
+.double_a:hover{
+    background-color:rgb(141, 255, 126);
+}
+.span__span{
+    padding:20px;
+    width:auto;
+    height:25px;
+    color:rgb(12, 10, 10);
+    font-weight: bold;
+    text-align: center;
+    }
+.single__aa{    
+    position:absolute;
+    width:200px;
+    height:50px;
+    background-color:rgb(241, 241, 2);
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    top:65px;
+    left:1200px;
+    text-overflow: center;
+    cursor:pointer;
+}
+.contain__div{
+display:flex;
+position:absolute;
+left:1000px;
+top:65px;
+width:200px;
+height:80px;
+gap:5px;
+
+}
+.sticky__header{
+    position:sticky;
+    width:1920px;
+    height:50px;
+    background-color:rgb(221, 236, 223);    
+    z-index:2;
+    top:0;   
+    box-shadow:rgba(192, 186, 186, 0.986) 0px 2px 8px 0px, rgba(172, 163, 163, 0.918) 0px 2px 4px 0px !important;
+    
+    
+}
+.sticky__navbar{
+    width:80vw;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    margin-left:100px;  
+    
+}
+
+.sticky__navbara{
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   height: 50px;
+  width:150px;
+    
+    border-left: 2px groove rgb(172, 15, 15);
+    }
+.sticky__navbara:last-child{
+        border-right:2px groove rgb(172, 15, 15);
+}
+.sticky__span{
+    text-align: center;
+    text-justify: left;
+    width:auto;
+    color:rgb(221, 53, 31);
+    font-weight: bold;
+    padding: 10px;
+    font-size:14px;
+       
+}
+.sticky__navbara:hover{
+    background-color: rgb(252, 250, 250);
+    background-image: url('https://thumbs.dreamstime.com/z/preparing-food-concept-restaurant-cafe-menu-plastic-flatware-frame-yellow-background-top-view-144342688.jpg');
+}
+
+
+
+.single__aa:hover{
+    background-color: rgb(180, 167, 50);
+}
+
+
+

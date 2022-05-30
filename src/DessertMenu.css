@@ -1,0 +1,26 @@
+.dessertMenu{    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:15px;        
+    width: 700px;
+    height:auto;
+    background-color: rgb(221, 213, 213);
+    border-radius: 10px;
+    top:3000px;
+    left:550px;   
+    padding-left:15px;
+    gap:5px;
+    padding-bottom:5px;
+    row-gap:15px;
+    align-items:stretch;
+    
+    
+}
+.dessertMenu > h1{
+    top:0;    
+    font-size:large;
+    left:0;
+    flex:0 0 600px;
+    
+   
+}

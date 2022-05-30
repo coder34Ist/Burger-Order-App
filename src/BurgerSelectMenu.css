@@ -1,0 +1,297 @@
+.select__item{
+    display:none;
+    align-items:center;
+    justify-content:center;
+    width:1920px;
+    height:5000px;
+    position:absolute;  
+    z-index:10000;
+    overflow:hidden;
+    
+    
+    
+    }
+    .select__item_menu__back{
+      width:1920px;
+      height:5000px;
+    background-color:rgb(0, 0, 0,0.5);
+    }
+  
+    .select__item_menu{
+  background-color:white;
+  width:1200px;
+  height:600px;
+  position:fixed;
+  top:175px;
+  left:25vh;
+  display:flex;  
+  border-radius:10px;
+  overflow:hidden;
+  transition:all 1s;
+  animation-name: example;
+  animation-duration: 0.4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+      }
+
+
+
+
+    .select__item_menu__select{
+      display:flex;
+      flex-direction:column;
+      width:600px;
+      background-color:red;
+    }
+    .select__item_menu__pic{}
+    .select__item_menu__pic>img{
+      width:600px;
+    }
+    .header_div{
+      display:flex;
+      align-items: flex-start;
+      gap:325px;
+    }
+    .header_div>h2{
+      margin-left:10px;
+      margin-right:0;
+  color:white;
+    }
+
+    .header_div>span{
+      margin-top:10px;
+      font-size: 20px;
+      flex:0 0 30px;
+      height:25px;
+      text-align: center;
+      cursor:pointer;
+      font-weight: bold;
+      color:white;
+    }
+    .container_form-div{
+      background-color:white;
+      width:580px;
+      height:430px;
+      margin-left:10px;
+      border-radius:10px;
+      overflow:auto;
+      overflow-x:hidden;
+      display:flex;
+      flex-direction: column;
+     
+      
+    }
+    .container_button_div{
+      margin-top:18px;
+      width:600px;
+      
+      height:80px;  
+      display:flex;
+      flex-direction:row;
+    }
+  
+    .container_button_div_inside{
+      position:relative;
+      display:flex;
+      flex-direction:row;    
+      width:150px; 
+      height:50px;
+      top:17px;
+      left:75px;
+      
+         
+    }
+    .container_button_div_inside_two{
+      position:relative;
+      width:271px;    
+      height:55px;
+      top:13px;
+      left:120px;    
+    }
+    .container_button_div_inside_two:hover a{
+      background:#88c573
+    }
+    .button_minus{ background-color: #585a58; 
+      border: none;
+      color: white;
+      width:50px;
+      height:50px;
+      text-align: center;
+      text-decoration: none;    
+      
+      cursor: pointer;}
+    .button_plus{ background-color: #585a58; 
+      border: none;
+      color: white;
+      width:50px;
+      height:50px;
+      text-align: center;
+      text-decoration: none;    
+      
+      cursor: pointer;}
+  
+      .number_contain{
+        width:50px;
+      height:50px;
+        background-color:rgb(255, 255, 255);
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight:bold;
+        
+      }
+  
+      .add_chart{
+        font-weight: 600;
+      color: #fff;
+      background: #3e9920;
+      border-radius: 2px;
+      display: flex;
+      align-items: center;
+      width: 270px;
+      height: 100%;
+      
+      cursor:pointer;
+      border-radius:10px;
+      }
+  
+      .price{
+  height:55px;
+  width:62px;
+  position:relative;
+  left:110px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:rgb(64, 133, 73,0.6);
+  border-radius:11px;}
+  
+  .price_one{
+    position:relative;
+    left:10px;
+  }
+  
+  form{
+    display:block;
+    
+  }
+  
+  
+  .description{padding:10px;}
+  
+  
+  .landing__one{
+    z-index:1;
+    background-color:green;
+    height:55px;
+    cursor:pointer;
+    border-bottom-right-radius: none;
+    border-bottom-left-radius: none ;
+    border-top-right-radius:5px ;
+    border-top-left-radius: 5px;
+  }
+  
+  .landing__one >h4{font-size: 15px;
+    margin-left: 2px;
+    margin-top:0;
+    color: #222;
+    line-height: 16px;}
+  
+  .landing__one>p{font-size: 15px;
+    line-height: 1px;
+    color: #ffffff;
+  margin-left:10px;}
+  
+  
+   
+    .input__one{
+      display:flex;
+      flex-direction:column;
+      background-color:rgb(141,141,141);
+      width:565px;
+      height:auto;
+      overflow:hidden;
+      transition: all 1s;
+      
+      
+    }
+    .container__la{
+      display:flex;
+      flex-direction:row;
+      width:565px;      
+      height:50px;
+      
+      gap:1px;
+      cursor:pointer;
+    }
+    .container__la:hover  input{
+      background-color:rgb(128, 128, 128);
+    }
+  
+    .contain__price{
+      margin-left:50px;
+      margin-top:10px;
+      margin-left:300px;
+     
+    }
+  
+  
+    .design__input__button{
+      background-color:gray;
+      position:relative;
+      left:240px;
+      top:-8px;
+      border: none;      
+      text-align: center;
+      text-decoration: none;  
+      font-size: 14px;  
+      cursor: pointer;
+      width:40px;
+      height:40px;    
+      color:white;  
+      border-radius: 5px;
+      margin:5px;
+    }
+      
+    
+  
+  
+    input[type='checkbox']{
+      appearance:none;
+      height:30px;
+      width:30px;
+      background-color:white;
+      border-radius:5px;
+      position:relative;
+      top:5px;
+      border:1px solid rgb(233, 227, 227);
+      cursor:pointer;
+    }
+   
+  
+    input[type='checkbox']:checked{
+      background-color:green;
+    }  
+  
+  .design__input__s{
+    position:relative;
+    top:-8px;
+    left:-22px;  
+    color:rgb(214, 14, 14);
+    visibility:hidden;
+  }
+  
+  .contain__text{
+   flex:0 0 150px;
+   max-width:150px;
+   margin-top:10px;
+   }
+  
+    
+  @keyframes example{
+    from{top:0;opacity:0.2}
+    to{ top:175px;opacity:1}
+  }
+  
+  
